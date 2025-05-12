@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nazv {
+    display: flex;
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.nazv h1 {
+    color: rgb(152, 107, 197);
+    font-size: 30px;
+    margin-top: 45px;
+}
+
+.container {
+    background-color:  rgb(215, 196, 235);
+    width: 385px;
+    height: 410px;
+    text-align: left;
+    border-radius: 15px;
+    font-size: 12px;
+    margin-top: 80px;
+    margin-left: 350px;
+}
+
+.container h1 {
+    margin: 9px;
+    margin-left: 15px;
+    height: 15px;
+    font-weight: 100;
+    font-family: math;
+}
+
+
+.registr {
+    background-color: rgb(152, 107, 197);
+    border-radius: 15px;
+    text-align: center;
+    height: 50px;
+    text-align: center;
+}
+
+.reg-1 {
+    font-family: cursive;
+    height: 50px;
+    width: 192px;
+    border-radius: 15px  0;
+    background-color: rgb(151, 107, 197);
+    border: 0;
+        &:hover{
+        background-color:  rgb(215, 196, 235);
+    }
+
+}
+.reg-2 {
+    font-family: cursive;
+    height: 50px;
+    width: 190px;
+    border-radius: 0 15px;
+    background-color: rgb(151, 107, 197);
+    border: 0;
+    &:hover{
+        background-color: rgb(215, 196, 235);
+    }
+}
+
+.fam {
+    margin-left: 15px;
+    width: 90%;
+    height: 22px;
+    margin-top: 10px;
+}
+
+.ima {
+    margin-left: 15px;
+    width: 90%;
+    height: 22px;
+    margin-top: 10px;
+}
+
+.E-mail {
+    margin-left: 15px;
+    width: 90%;
+    height: 22px;
+    margin-top: 10px;
+}
+
+.parol {
+    margin-left: 15px;
+    width: 90%;
+    height: 22px;
+    margin-top: 10px;
+}
+
+.dalee {
+    width: 130px;
+    height: 30px;
+    margin-left: 128px;
+    margin-top: 20px;
+    background-color:   rgb(151, 107, 197);
+    color: rgb(0, 0, 0);
+    border: 0;
+    &:hover{
+        background-color: #fff;
+}

@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #ffffff;
 }
 
 .nazv {
@@ -20,15 +21,18 @@ body {
     margin-top: 45px;
 }
 
+
+
+/*  container  */
 .container {
     background-color:  rgb(215, 196, 235);
     width: 385px;
-    height: 410px;
+    height: 445px;
     text-align: left;
     border-radius: 15px;
     font-size: 12px;
-    margin-top: 80px;
-    margin-left: 350px;
+    margin-top: 22px;
+    margin-left: 490px;
 }
 
 .container h1 {
@@ -37,10 +41,13 @@ body {
     height: 15px;
     font-weight: 100;
     font-family: math;
+    margin-top: 5px;
 }
+/*  end container  */
 
 
-.registr {
+
+.shapka {
     background-color: rgb(152, 107, 197);
     border-radius: 15px;
     text-align: center;
@@ -48,7 +55,10 @@ body {
     text-align: center;
 }
 
-.reg-1 {
+
+
+/*  btn  */
+.btn-1 {
     font-family: cursive;
     height: 50px;
     width: 192px;
@@ -60,7 +70,7 @@ body {
     }
 
 }
-.reg-2 {
+.btn-2 {
     font-family: cursive;
     height: 50px;
     width: 190px;
@@ -72,6 +82,35 @@ body {
     }
 }
 
+.btn-3 {
+    margin-left: 16px;
+    height: 28px;
+    width: 354px;
+    margin-top: 25px;
+    background-color: rgb(151, 107, 197);
+    border: 0;
+    &:hover{
+        background-color: #fff;
+    }
+}
+
+.btn-4 {
+    width: 130px;
+    height: 30px;
+    margin-left: 128px;
+    margin-top: 20px;
+    background-color: rgb(151, 107, 197);
+    color: rgb(0, 0, 0);
+    border: 0;
+    &:hover{
+        background-color: #fff;
+    }
+}
+/*  end btn  */
+
+
+
+/*  registr  1  */
 .fam {
     margin-left: 15px;
     width: 90%;
@@ -99,15 +138,16 @@ body {
     height: 22px;
     margin-top: 10px;
 }
+/*  end registr 1  */
 
-.dalee {
-    width: 130px;
-    height: 30px;
-    margin-left: 128px;
-    margin-top: 20px;
-    background-color:   rgb(151, 107, 197);
-    color: rgb(0, 0, 0);
-    border: 0;
-    &:hover{
-        background-color: #fff;
+
+
+/*  registr 2  */
+.E-mail {
+
 }
+
+.parol-1 {
+
+}
+/*  end registr 2  */

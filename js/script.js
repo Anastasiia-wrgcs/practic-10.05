@@ -26,24 +26,23 @@ function _post (params, callback) {
 }
 LoadPageAuth()
 
+
 function LoadPageAuth () {
-    _get ({url: '/modules/authorization.html'}, function(responseText) {
+    _get ({url: 'modules/registration.html'}, function(responseText) {
         CONTENT.innerHTML = responseText
     })
 }
 onLoadPageAuth()
 
+
 function onLoadPageAuth() {
-    document.querySelector('.authorize').addEventListener('click', function() {
+    document.querySelector('.registr').addEventListener('click', function() {
         var request_data = new FormData();
         request_data.append('fam', document.querySelector('input[name="FAM"]').value)
         request_data.append('ima', document.querySelector('input[name="ima"]').value)
         request_data.append('E-mail', document.querySelector('input[name="E-mail"]').value)
         request_data.append('parol', document.querySelector('input[name="parol"]').value)
-        
-
-        
-
-
     })
 }
+
+

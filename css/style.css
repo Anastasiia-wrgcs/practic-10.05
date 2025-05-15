@@ -4,9 +4,7 @@ body {
     background-color: #ffffff;
 }
 
-.nazv {
-    display: flex;
-}
+
 
 .logo {
     width: 75px;
@@ -53,6 +51,15 @@ body {
     margin-top: 22px;
     margin-left: 490px;
 }
+
+.container-2 {
+    background-color: rgb(215, 196, 235);
+    width: 100%;
+    min-height: 100%;
+    font-size: 12px;
+    margin-top: 22px;
+    margin-left: 0;
+}
 /*  end container  */
 
 
@@ -72,6 +79,8 @@ h2 {
     font-weight: 100;
     font-family: math;
 }
+
+
 
 /*  btn  */
 .btn-1 {
@@ -186,3 +195,52 @@ h2 {
     margin-top: 10px;
 }
 /*  end registr 2  */
+
+
+
+/*  chat  */
+.chat {
+    background-color: rgb(151, 107, 197);
+    height: 60px;
+}
+
+.chat .prof {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: -39.5px;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+
+.nastr {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.windows {
+    display: flex;
+}
+
+.chats {
+    background-color:  rgb(201, 160, 245);
+    width: 20%;
+    height: 869px;
+}
+
+.poisk {
+    width: 324px;
+    height: 30px;
+    border-color: rgb(108, 105, 105);
+}
+
+.lines-1 {
+    border: 1px solid #4b4b4b;
+    width: 99.5%;
+    height: 50px;
+
+
+}
+/*  end chat  */

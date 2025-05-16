@@ -55,7 +55,7 @@ body {
 .container-2 {
     background-color: rgb(215, 196, 235);
     width: 100%;
-    min-height: 100%;
+    height: 100%;
     font-size: 12px;
     margin-top: 22px;
     margin-left: 0;
@@ -202,15 +202,16 @@ h2 {
 .chat {
     background-color: rgb(151, 107, 197);
     height: 60px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .chat .prof {
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    margin-top: -39.5px;
-    margin-bottom: 25px;
-    justify-content: space-between;
+    margin-top: 5px;
+
 }
 
 .nastr {
@@ -226,21 +227,23 @@ h2 {
 
 .chats {
     background-color:  rgb(201, 160, 245);
-    width: 20%;
-    height: 869px;
+    width: 400px;
+    height: 100%;
 }
 
 .poisk {
-    width: 324px;
+    width: 392px;
     height: 30px;
     border-color: rgb(108, 105, 105);
 }
 
+.lines {
+    width: 100%;
+    height: 100vh;
+}
+
 .lines-1 {
     border: 1px solid #4b4b4b;
-    width: 99.5%;
-    height: 50px;
-
-
+    height: 35px;
 }
 /*  end chat  */

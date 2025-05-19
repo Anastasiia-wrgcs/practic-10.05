@@ -9,17 +9,23 @@ body {
 .logo {
     width: 75px;
     height: 75px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 30px;
+    margin-left: 25px;
 }
 
 .nazv h1 {
+    margin-left: 106px;
     color: rgb(152, 107, 197);
-    font-size: 30px;
-    margin-top: 45px;
+    font-size: 33px;
+    margin-top: -58px;
 }
 
-
+.nazv-1 h1 {
+    margin-left: 106px;
+    color: rgb(152, 107, 197);
+    font-size: 33px;
+    margin-top: -58px
+}
 
 /*  container  */
 .container {
@@ -232,9 +238,10 @@ h2 {
 }
 
 .poisk {
-    width: 392px;
+    width: 396px;
     height: 30px;
     border-color: rgb(108, 105, 105);
+    border: 5px;
 }
 
 .lines {
@@ -245,5 +252,31 @@ h2 {
 .lines-1 {
     border: 1px solid #4b4b4b;
     height: 35px;
+}
+
+input .text {
+    width: 799px;
+}
+
+.sms {
+    width: 800px;
+    height: 20px;
+    margin-top: 2px;
+    margin-left: 430px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.otpr-sms {
+    width: 85px;
+    height: 30px;
+    margin-top: -10px;
+    margin-left: 1270px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgba(183, 144, 255, 0.594);
+    &:hover{
+        background-color: #fff;
+    }
 }
 /*  end chat  */

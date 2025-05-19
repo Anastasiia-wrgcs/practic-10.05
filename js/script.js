@@ -29,13 +29,11 @@ function _post (params, callback) {
         CONTENT.innerHTML = responseText
     })
         LoadPageAuth()
-        LoadPageChat()
-
 
 function LoadPageAuth() {
     document.querySelector('.registr').addEventListener('click', function() {
         var request_data = new FormData();
-        request_data.append('fam', document.querySelector('input[name="FAM"]').value)
+        request_data.append('fam', document.querySelector('input[name="fam"]').value)
         request_data.append('ima', document.querySelector('input[name="ima"]').value)
         request_data.append('E-mail', document.querySelector('input[name="E-mail"]').value)
         request_data.append('parol', document.querySelector('input[name="parol"]').value)
@@ -45,7 +43,7 @@ function LoadPageAuth() {
         xhr.send(request_data);
         xhr.onreadystatechange = function() {
             if (xhr.status == 200) {
-                OnLoadPageChat()
+                OnLoadPageChats()
             } if (xhr.status == 422) {
                 var response = JSON.parse(xhr.responseText)
                 alert(response.message)
@@ -53,5 +51,34 @@ function LoadPageAuth() {
         }
     })
 }
+
+function OnLoadPageChats() {
+    _post ({url: 'modules/chat.html'}, function(response){
+            CONTENT.innerHTML = response;
+    })
+}
+
+
+function onLoadPageAuth {
+    document.querySelector('.authorize').addEventListener('click', function() {
+        _post({url: 'modules/authorization.html'}, function(response){
+            CONTENT.innerHTML = response;
+        })
+    })
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

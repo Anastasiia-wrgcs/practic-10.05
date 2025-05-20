@@ -24,11 +24,12 @@ function _post (params, callback) {
         }
     }
 }
-
+/*      start       */
     _post ({url: 'modules/registration.html'}, function(responseText) {
         CONTENT.innerHTML = responseText
     })
-        LoadPageAuth()
+LoadPageAuth()
+
 
 function LoadPageAuth() {
     document.querySelector('.registr').addEventListener('click', function() {
@@ -46,28 +47,52 @@ function LoadPageAuth() {
                 OnLoadPageChats()
             } if (xhr.status == 422) {
                 var response = JSON.parse(xhr.responseText)
-                alert(response.message)
+                alert('Login failed')
             }
         }
     })
 }
 
-function OnLoadPageChats() {
-    _post ({url: 'modules/chat.html'}, function(response){
+
+function onLoadPageChats() {
+    _post ({url: 'modules/chat.html'}, function(response) {
             CONTENT.innerHTML = response;
     })
 }
 
 
-function onLoadPageAuth {
+function onLoadPageAuth() {
     document.querySelector('.authorize').addEventListener('click', function() {
-        _post({url: 'modules/authorization.html'}, function(response){
+        _post({url: 'modules/authorization.html'}, function(response) {
             CONTENT.innerHTML = response;
         })
     })
 }
+onLoadPageChatsAuth()
 
 
+function onLoadPageChatsAuth() {
+    document.querySelector('.authorize').addEventListener('click', function() {
+        var data = new FormData()
+        var email = document.querySelector('input[name = "email"]').value
+        var parol = document.querySelector('input[name = "parol"]').value
+        edata.append('email', email)
+        edata.append('par', parol)
+
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', `${host}/auth/`);
+        xhr.send(edata);
+        xhr.onreadystatechange = function() {
+            if (xhr.status == 200) {
+                OnLoadPageChats()
+            } if (xhr.status == 422) {
+                var response = JSON.parse(xhr.responseText)
+                alert(response.message)
+            }
+        }
+    })
+}
+/*        end         */
 
 
 

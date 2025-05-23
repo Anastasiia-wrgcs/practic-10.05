@@ -11,6 +11,16 @@ body {
     margin-left: 25px;
 }
 
+.shapka {
+    background-color: rgb(152, 107, 197);
+    border-radius: 15px;
+    text-align: center;
+    height: 50px;
+    text-align: center;
+}
+
+
+/*  zag  */
 .nazv h1 {
     margin-left: 106px;
     color: rgb(152, 107, 197);
@@ -25,12 +35,12 @@ body {
     margin-top: -58px
 }
 
-.shapka {
-    background-color: rgb(152, 107, 197);
-    border-radius: 15px;
-    text-align: center;
-    height: 50px;
-    text-align: center;
+.container h1 {
+    margin: 9px;
+    margin-left: 15px;
+    height: 15px;
+    font-weight: 100;
+    margin-top: 5px;
 }
 
 h2 {
@@ -41,26 +51,24 @@ h2 {
     font-family: math;
 }
 
+h3 {
+    margin-top: 8px;
+    font-family: math;
+}
+/*  end zag  */
+
 
 
 /*  container  */
 .container {
     background-color:  rgb(215, 196, 235);
     width: 385px;
-    height: 445px;
+    height: 535px;
     text-align: left;
     border-radius: 15px;
     font-size: 12px;
     margin-top: 22px;
     margin-left: 490px;
-}
-
-.container h1 {
-    margin: 9px;
-    margin-left: 15px;
-    height: 15px;
-    font-weight: 100;
-    margin-top: 5px;
 }
 
 .container-1 {
@@ -95,7 +103,7 @@ h2 {
     background-color: rgb(151, 107, 197);
     border: 0;
         &:hover{
-        background-color:  rgb(215, 196, 235);
+        background-color:  rgb(194, 170, 219);
     }
 }
 
@@ -107,7 +115,7 @@ h2 {
     background-color: rgb(151, 107, 197);
     border: 0;
     &:hover{
-        background-color: rgb(215, 196, 235);
+        background-color: rgb(194, 170, 219);
     }
 }
 
@@ -115,11 +123,11 @@ h2 {
     margin-left: 16px;
     height: 28px;
     width: 354px;
-    margin-top: 25px;
+    margin-top: 35px;
     background-color: rgb(151, 107, 197);
     border: 0;
     &:hover{
-        background-color: #fff;
+        background-color: rgb(194, 170, 219);
     }
 }
 
@@ -127,12 +135,12 @@ h2 {
     width: 130px;
     height: 30px;
     margin-left: 128px;
-    margin-top: 20px;
+    margin-top: 44px;
     background-color: rgb(151, 107, 197);
     color: rgb(0, 0, 0);
     border: 0;
     &:hover{
-        background-color: #fff;
+        background-color: rgb(194, 170, 219);
     }
 }
 
@@ -152,7 +160,7 @@ h2 {
 
 
 
-/*  registr  1  */
+/*  registr  */
 .fam {
     margin-left: 15px;
     width: 90%;
@@ -160,31 +168,38 @@ h2 {
     margin-top: 10px;
 }
 
-.ima {
+.name{
     margin-left: 15px;
     width: 90%;
     height: 22px;
     margin-top: 10px;
 }
 
-.E-mail {
+.otch{
     margin-left: 15px;
     width: 90%;
     height: 22px;
     margin-top: 10px;
 }
 
-.parol {
+.email {
     margin-left: 15px;
     width: 90%;
     height: 22px;
     margin-top: 10px;
 }
-/*  end registr 1  */
+
+.pass {
+    margin-left: 15px;
+    width: 90%;
+    height: 22px;
+    margin-top: 10px;
+}
+/*  end registr  */
 
 
 
-/*  registr 2  */
+/*  author  */
 .E-mail-1 {
     margin-left: 15px;
     width: 90%;
@@ -198,7 +213,7 @@ h2 {
     height: 30px;
     margin-top: 10px;
 }
-/*  end registr 2  */
+/*  end author  */
 
 
 
